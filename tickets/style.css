@@ -1,0 +1,41 @@
+*{color:inherit}
+body{
+    background: #161616;
+    color: #fff;
+}
+.place,
+.time{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+.time{
+    width: 80px;
+}
+.disabled{
+    pointer-events: none;
+    color: grey;
+}
+button,
+input{
+    background: none;
+    border: 1px solid #fff;
+}
+
+.hidden{display: none;}
+.visible{display: block;}
+h6{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    border-radius: 4px;
+    padding: 2px;
+    color: white;
+    height: 28px;
+    width: 7%;
+    text-align: center;
+}
